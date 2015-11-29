@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">傻逼小组医院挂号系统</string>
+    <string name="FgtVisHosp">就诊</string>
+    <string name="FgtPerson">个人中心</string>
+    <string name="exit_alert">再按一次退出该程序</string>
+    <string name="title_activity_setting">设置</string>
+
+</resources>

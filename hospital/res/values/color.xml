@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hospital_red">#e00</color>
+    <color name="hospital_color_bottombar_text">#999</color>
+    <color name="hospital_line_orange">#ffdf2d</color>
+    <color name="hospital_color_bottombar_selectedtext">#3990F3</color>
+    <color name="hospital_title_blue">#3990f3</color>
+    <color name="hospital_grey">#ECECEC</color>
+    <color name="hospital_white">#ffffff</color>
+    <color name="hospital_light_blue">#4682B4</color>
+    <color name="hospital_btn_red">	#FF3030</color>
+    <color name="hospital_black">#000</color>
+    <color name="hospital_dark_grey">#C2C2C2</color>
+</resources>

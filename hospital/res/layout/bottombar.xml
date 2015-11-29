@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/rb_border_bottombar"
+       android:gravity="center_vertical"
+       android:weightSum="2"
+       android:padding="5dp"
+       
+       android:orientation="horizontal" >
+	<RadioButton
+	    android:id="@+id/rb_tab1"
+	    android:drawableTop="@drawable/bg_bottombar_jiuzhen"
+	    style="@style/hospital_bottombar"
+	    android:checked="true"
+	    android:text="就诊"/>
+	<RadioButton 
+	    android:id="@+id/rb_tab2"
+	    android:drawableTop="@drawable/bg_bottombar_person"
+	    style="@style/hospital_bottombar"
+	    android:text="个人中心"/>
+</RadioGroup>

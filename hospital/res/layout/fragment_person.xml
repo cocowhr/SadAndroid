@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hospital_grey"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp" >
+
+    <RelativeLayout
+        android:id="@+id/rlPersonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/hospital_white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tvPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user_avatar"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:text="用户名"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvChangeUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="修改资料"
+            android:textColor="@color/hospital_light_blue"
+            android:textSize="12sp"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawablePadding="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvHospitalBidding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlPersonInfo"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="预约单"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/hospital_bidding"
+        android:drawablePadding="10dp"
+        android:background="@drawable/bg_pressed"/>
+
+    <TextView
+        android:id="@+id/tvHospitalRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHospitalBidding"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="挂号单"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/hospital_registration"
+        android:drawablePadding="10dp"
+        android:background="@drawable/bg_pressed"/>
+
+    <TextView
+        android:id="@+id/tvHospitalSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHospitalRegistration"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_pressed"
+        android:drawableLeft="@drawable/hospital_setting"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="设置" />
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHospitalSetting"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_pressed"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="退出登录"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
