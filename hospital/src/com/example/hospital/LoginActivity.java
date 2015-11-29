@@ -107,7 +107,7 @@ public class LoginActivity extends HospitalBarActivity implements LoaderCallback
 		register.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				// toRegisterActivity(view);
+				 toRegisterActivity(view);
 			}
 		});
 		toast = new Toast(getApplicationContext());
@@ -263,12 +263,12 @@ public class LoginActivity extends HospitalBarActivity implements LoaderCallback
 		mUserNameView.setAdapter(adapter);
 	}
 
-	// public void toRegisterActivity(View view) {
-	//
-	// Intent intent = new Intent(this, RegisterActivity.class);
-	// startActivity(intent);
-	//
-	// }
+	 public void toRegisterActivity(View view) {
+	
+	 Intent intent = new Intent(this, RegisterActivity.class);
+	 startActivity(intent);
+	
+	 }
 
 	/**
 	 * Represents an asynchronous login/registration task used to authenticate

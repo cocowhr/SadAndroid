@@ -33,6 +33,17 @@ public class JsonPost {
 		post.PostExecuteLogin(returnjsonObject);
 	}
 
+	public JsonPost(HashMap<String, String> map, String url, String type) throws Exception {
+		this.url = url;
+		Post post = new Post(map);
+		returnjsonObject = post.PostToServer();
+		if (type.equals("register")) {
+			post.PostExecuteRegister(returnjsonObject);
+		} else {
+			throw new MyException.packageException();
+		}
+	}
+
 	private class Post {
 		// HttpClient client = new DefaultHttpClient();
 		CloseableHttpClient client = HttpClients.custom().useSystemProperties().build();
@@ -95,6 +106,21 @@ public class JsonPost {
 				} else {
 					throw new MyException.executeException();
 				}
+			}
+		}
+
+		protected void PostExecuteRegister(JSONObject jsonObject) throws Exception {
+			if (jsonObject == null) {
+				throw new MyException.nullException();
+				// TODO:网络通信错误
+			}
+			String status = jsonObject.getString("status");
+			if (status.equals("normal")) {
+
+			} else if (status.equals("register_fail")) {
+				throw new MyException.registerfailException();
+			} else {
+				throw new MyException.executeException();
 			}
 		}
 	}

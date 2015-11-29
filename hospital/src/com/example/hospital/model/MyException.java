@@ -40,4 +40,7 @@ public class MyException {
     public static class passwordInvalidException extends Exception {
         public String name = "passwordinvalid";
     }
+    public static class registerfailException extends Exception {
+        public String name = "registerfail";
+    }
 }
