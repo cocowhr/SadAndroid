@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="hospital_red">#e00</color>
     <color name="hospital_color_bottombar_text">#999</color>
     <color name="hospital_line_orange">#ffdf2d</color>
@@ -11,4 +12,28 @@
     <color name="hospital_btn_red">	#FF3030</color>
     <color name="hospital_black">#000</color>
     <color name="hospital_dark_grey">#C2C2C2</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="草绿色">#7CFC00</color>
+    <color name="栗色">#B03060</color>
+    <color name="青色">#00FFFF</color>
+    <color name="淡灰蓝色">#B0E0E6</color>
+    <color name="黄色">#FFFF00</color>
+    <color name="黑色">#000000</color>
+    <color name="橙色">#FF6100</color>
+    <color name="绿色">#00FF00</color>
+    <color name="紫色">#A020F0</color>
+    <color name="蓝色">#0000FF</color>
+    <color name="橘红色">#FF4500</color>
+    <color name="红色">#FF0000</color>
+    <color name="浅灰色">#E3E3E3</color>
+    <color name="中灰色">#CCCCCC</color>
+    <color name="深灰色">#999999</color>
+    <color name="象牙黑">#292421</color>
+    <color name="纯白色">#FFFFFF</color>
+    <color name="白色">#F0F0F0</color>
+    <color name="天依蓝">#66CCFF</color>
+    <color name="用户蓝">#66bbff</color>
+    <color name="背景蓝">#F0F8F8</color>
+    <color name="透明">#00000000</color>
+
 </resources>

@@ -6,5 +6,23 @@
     <string name="FgtPerson">个人中心</string>
     <string name="exit_alert">再按一次退出该程序</string>
     <string name="title_activity_setting">设置</string>
-
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登 录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">邮箱格式错误</string>
+    <string name="error_invalid_password">密码长度错误（应为6~15个字符）</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">该项不能为空</string>
+    <string name="register">立即注册</string>
+    <string name="user_name">用户名</string>
+    <string name="user_name_invalid">用户名只能使用英文字母，下划线，数字及汉字，长度2~15个字符</string>
+    <string name="title_activity_user_list">名单</string>
+    <string name="enter_password">输入密码</string>
+    <string name="reenter_password">再次输入密码</string>
+    <string name="password_not_same">密码不一致</string>
+    <string name="OK">确 定</string>
+    <string name="auto_login">自动登录</string>
+    <string name="remember_password">记住密码</string>
+	<string name="title_activity_login">登录</string>
 </resources>
